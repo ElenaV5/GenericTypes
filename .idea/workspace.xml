@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78c58c3d-d758-44a7-a4c7-a65a3442763a" name="Changes" comment="Refactored T to the interface lvl and added on class support">
-      <change afterPath="$PROJECT_DIR$/src/ru/synergy/genericmethods/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/synergy/genericmethods/Printer.java" afterDir="false" />
+    <list default="true" id="78c58c3d-d758-44a7-a4c7-a65a3442763a" name="Changes" comment="Method only generic implementation">
+      <change beforePath="$PROJECT_DIR$/src/ru/synergy/customgenerictypes/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/synergy/customgenerictypes/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/synergy/customgenerictypes/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/synergy/customgenerictypes/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671812986925</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Method only generic implementation">
+      <created>1671813612500</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1671813612500</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,6 +221,7 @@
     <MESSAGE value="Refactored to the interface" />
     <MESSAGE value="Refactored T to the interface lvl" />
     <MESSAGE value="Refactored T to the interface lvl and added on class support" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored T to the interface lvl and added on class support" />
+    <MESSAGE value="Method only generic implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Method only generic implementation" />
   </component>
 </project>

@@ -11,5 +11,7 @@ public class Main {
     int a = acc1.getId() + 10; // опасное преобразование типов
         System.out.println(a);
 
+    Account<Integer> acc3 = new Account(13000, 100, "Something" );    //параметризация через конструктор
+
     }
 }

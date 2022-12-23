@@ -3,6 +3,13 @@ package ru.synergy.customgenerictypes;
 public class Account<T> implements Accountable<T> {
     private T id; //уникальный номер клиента
     private int sum; //сумма на счете
+    private Object smth;
+
+    <S> Account(T id, int sum, Object smth) {
+        this(id, sum);
+        this.smth = smth;
+
+    }
 
     public Account(T id, int sum) {
         this.id = id;
