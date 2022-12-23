@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78c58c3d-d758-44a7-a4c7-a65a3442763a" name="Changes" comment="Start of project">
+    <list default="true" id="78c58c3d-d758-44a7-a4c7-a65a3442763a" name="Changes" comment="First example of type casting">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/synergy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/synergy/Main.java" afterDir="false" />
     </list>
@@ -52,12 +52,38 @@
       <option name="project" value="LOCAL" />
       <updated>1671803814957</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First example of type casting">
+      <created>1671805123505</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671805123505</updated>
+    </task>
+    <task id="LOCAL-00003" summary="First example of type casting">
+      <created>1671805248744</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671805248744</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Start of project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start of project" />
+    <MESSAGE value="First example of type casting" />
+    <option name="LAST_COMMIT_MESSAGE" value="First example of type casting" />
   </component>
 </project>

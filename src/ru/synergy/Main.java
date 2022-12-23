@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
-        Object o = new Scanner(System.in);
+/*        Object o = new Scanner(System.in);
         System.out.println(o instanceof Scanner); //проверка объекта
         Scanner scanner = null;
 
@@ -17,7 +17,19 @@ public class Main {
         }
 
         Object o1 = new String();
-        Object o2 = new Boolean(true);
+        Object o2 = new Boolean(true);*/
+
+
+        //Второй пример
+        Object[] objects = {10, "Привет", 3.14}; //автоупаковка
+        for(Object o : objects){ //перебираем все объекты
+            if(o instanceof String){ //является ли объект Стринг
+                String s = (String) o; //преобразовываем в стринг
+                System.out.println(s); //Привет
+            }
+        }
+
+
 
     }
 }
