@@ -9,7 +9,7 @@ public class Main {
         System.out.println(o instanceof Scanner); //проверка объекта
         Scanner scanner = null;
 
-        if(o instanceof Scanner) scanner = (Scanner) o;
+        if(o instanceof Scanner) scanner = (Scanner) o; //проверка обязательна
 
         //((Scanner) o ).nextInt(); //преобразовывает в инт, если нет, то получим ошибки в консоли
         if(scanner != null) {
