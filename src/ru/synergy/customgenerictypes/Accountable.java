@@ -1,4 +1,4 @@
-package ru.synergy;
+package ru.synergy.customgenerictypes;
 
 public interface Accountable <T> {
     T getID();

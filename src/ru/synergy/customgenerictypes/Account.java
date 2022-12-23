@@ -1,7 +1,5 @@
 package ru.synergy.customgenerictypes;
 
-import ru.synergy.Accountable;
-
 public class Account<T> implements Accountable<T> {
     private T id; //уникальный номер клиента
     private int sum; //сумма на счете
