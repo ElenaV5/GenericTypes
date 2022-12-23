@@ -4,13 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78c58c3d-d758-44a7-a4c7-a65a3442763a" name="Changes" comment="Refactored list to Integer generic type">
-      <change beforePath="$PROJECT_DIR$/src/ru/synergy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/synergy/Main.java" afterDir="false" />
+    <list default="true" id="78c58c3d-d758-44a7-a4c7-a65a3442763a" name="Changes" comment="Added account class">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/synergy/customgenerictypes/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/synergy/customgenerictypes/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/synergy/customgenerictypes/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/synergy/customgenerictypes/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -106,7 +115,28 @@
       <option name="project" value="LOCAL" />
       <updated>1671808752726</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="GenericTypes with deep 2">
+      <created>1671809850641</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671809850641</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added starter point for GenericTypes">
+      <created>1671810048779</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1671810048779</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added account class">
+      <created>1671810212350</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1671810212350</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,6 +157,9 @@
     <MESSAGE value="Finished with instanceof" />
     <MESSAGE value="Finished with example of cast failure in ArrayList" />
     <MESSAGE value="Refactored list to Integer generic type" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored list to Integer generic type" />
+    <MESSAGE value="GenericTypes with deep 2" />
+    <MESSAGE value="Added starter point for GenericTypes" />
+    <MESSAGE value="Added account class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added account class" />
   </component>
 </project>

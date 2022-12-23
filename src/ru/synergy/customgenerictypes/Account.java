@@ -1,19 +1,19 @@
 package ru.synergy.customgenerictypes;
 
 public class Account {
-    private int id;
-    private int sum;
+    private Object id; //уникальный номер клиента
+    private int sum; //сумма на счете
 
-    public Account(int id, int sum) {
+    public Account(Object id, int sum) {
         this.id = id;
         this.sum = sum;
     }
 
-    public int getId() {
+    public Object getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Object id) {
         this.id = id;
     }
 
