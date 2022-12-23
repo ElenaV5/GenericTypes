@@ -1,19 +1,19 @@
 package ru.synergy.customgenerictypes;
 
-public class Account <T> {
-    private T id; //уникальный номер клиента
+public class Account implements Appendable <String> {
+    private String id; //уникальный номер клиента
     private int sum; //сумма на счете
 
-    public Account(T id, int sum) {
+    public Account(String id, int sum) {
         this.id = id;
         this.sum = sum;
     }
 
-    public T getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(T id) {
+    public void setId(String id) {
         this.id = id;
     }
 
