@@ -31,7 +31,7 @@ public class Main {
         }
 
         //ArrayLists
-        ArrayList numbers = new ArrayList(); //сохраняет объекты
+        /*ArrayList numbers = new ArrayList(); //сохраняет объекты
         for(int i = 0; i < 10; i++){ //сохранять в коллекцию числа 10, 20, 30... 100
             numbers.add(i*10);
             //numbers.add(i*10.4F); //вызовит ошибку на выходе
@@ -41,7 +41,20 @@ public class Main {
             sum = sum + (Integer) o;
         }
         System.out.println(sum); //450
+        */
 
-
+        //Generics - возможность добавлять типы как параметры (к чему угодно), получаются составные типы, которые можно переиспользовать
+        //Основной тип<Тип параметров>
+        ArrayList<Integer> numbers = new ArrayList(); //сохраняет объекты
+        for(int i = 0; i < 10; i++){ //сохранять в коллекцию числа 10, 20, 30... 100
+            numbers.add(i*10);
+            //numbers.add(i*10.4F); //вызовит ошибку в момент написания кода - не запустится код
+        }
+        //numbers.add("hi"); //тоже будет ошибка
+        int sum = 0;
+        for(Integer o : numbers){ //Integer вместо Object
+            sum = sum + o; //здесь не нужно уточнаять, что o - Integer
+        }
+        System.out.println(sum); //450
     }
 }
