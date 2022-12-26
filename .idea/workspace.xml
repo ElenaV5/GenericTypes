@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78c58c3d-d758-44a7-a4c7-a65a3442763a" name="Changes" comment="Method only generic implementation">
-      <change beforePath="$PROJECT_DIR$/src/ru/synergy/customgenerictypes/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/synergy/customgenerictypes/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/synergy/customgenerictypes/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/synergy/customgenerictypes/Main.java" afterDir="false" />
+    <list default="true" id="78c58c3d-d758-44a7-a4c7-a65a3442763a" name="Changes" comment="Constructor only generic implementation">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671813612500</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Constructor only generic implementation">
+      <created>1671814058342</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1671814058342</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,6 +228,7 @@
     <MESSAGE value="Refactored T to the interface lvl" />
     <MESSAGE value="Refactored T to the interface lvl and added on class support" />
     <MESSAGE value="Method only generic implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Method only generic implementation" />
+    <MESSAGE value="Constructor only generic implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Constructor only generic implementation" />
   </component>
 </project>
